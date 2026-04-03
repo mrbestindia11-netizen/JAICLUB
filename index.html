@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jai Club Offer</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #facc15;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #22c55e;
+}
+
+.btn {
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    width: 90%;
+    max-width: 320px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-main {
+    background: linear-gradient(45deg, #22c55e, #16a34a);
+    animation: pulse 1.5s infinite;
+}
+
+.btn-telegram {
+    background: linear-gradient(45deg, #229ED9, #1b8cc7);
+}
+
+.btn-support {
+    background: linear-gradient(45deg, #f97316, #ea580c);
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+}
+
+.timer {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.footer {
+    font-size: 12px;
+    color: gray;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="title">🔥 Jai Club Official Offer 🔥</div>
+
+<img src="banner1.jpg">
+
+<div class="section">
+<div class="title">💸 Ads Fee Chart Available</div>
+<div class="subtitle">10 FR = ₹2000 Ads Fee</div>
+</div>
+
+<a href="https://www.jaiclub21.com/#/register?invitationCode=64614243751" class="btn btn-main">
+👉 Abhi Register Karo
+</a>
+
+<div class="timer" id="countdown"></div>
+
+<img src="banner2.jpg">
+
+<div class="section">
+<div class="title">💯 50% Loss Back Offer</div>
+<div class="subtitle">Agar First Deposit Loss hua → Next Day 50% Back</div>
+</div>
+
+<img src="banner5.jpg">
+
+<div class="section">
+<div class="title">🎁 ₹4888 First Deposit Bonus</div>
+<div class="subtitle">Instant Bonus Claim Karo</div>
+</div>
+
+<a href="https://www.jaiclub21.com/#/register?invitationCode=64614243751" class="btn btn-main">
+💸 Bonus Claim Karo
+</a>
+
+<img src="banner3.jpg">
+
+<div class="section">
+<div class="title">📱 iPhone 17 Jeetne ka Mauka</div>
+<div class="subtitle">Lucky Roulette – Highest Reward</div>
+</div>
+
+<img src="banner4.jpg">
+
+<div class="section">
+<div class="title">🎯 Wingo Lottery Bonus</div>
+<div class="subtitle">100% Winning Streak Bonus</div>
+</div>
+
+<a href="https://t.me/jaiclublovers" class="btn btn-telegram">
+📢 Telegram Join Karo
+</a>
+
+<a href="https://t.me/Tyeson_ray02" class="btn btn-support">
+🛠 Support Se Baat Karo
+</a>
+
+<p class="footer">
+⚠️ Limited Time Offer — Jaldi Join Karo!
+</p>
+
+</div>
+
+<script>
+let time = 600;
+setInterval(() => {
+    let min = Math.floor(time / 60);
+    let sec = time % 60;
+    document.getElementById("countdown").innerHTML =
+        "⏳ Offer End Hone Wala Hai: " + min + "m " + sec + "s";
+    time--;
+    if(time < 0) time = 0;
+}, 1000);
+</script>
+
+</body>
+</html>
